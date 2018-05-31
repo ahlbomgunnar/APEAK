@@ -1,0 +1,46 @@
+
+/* Module container parent */
+#package {
+	margin: auto;
+	top: 100px;
+	width: 400px;
+	position: relative;
+}
+
+/* Content container parent */
+.module {
+	height: 110px;
+	width: 110px;
+	margin: 10px;
+	border: solid 5px black;
+	background-color: white;
+	display: inline-block;
+}
+
+/* Content object definition */
+.content {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+	translate:0.2s ease;
+}
+
+/* POSTPROCESSED CLASSES */
+
+.module-hovered {
+	border: dotted 5px black;
+}
+
+.content-targeted {
+	padding:25px;
+	background-color: black;
+}
+
+.content-invisible {
+	display: none;
+}
+
